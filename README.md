@@ -82,10 +82,11 @@ Start (or restart) the Tomcat server.
 Access the application
 Open your browser and go to:
 
-text
 http://localhost:8080/library-webapp/
-📁 Project Structure
-text
+
+## 📁 Project Structure
+
+```plaintext
 library-webapp/
 ├── src/
 │   └── main/
@@ -102,6 +103,8 @@ library-webapp/
 ├── database/                    # SQL schema files
 ├── pom.xml                      # Maven configuration
 └── README.md
+```
+
 🖥️ Usage Example
 View Catalog – Navigate to the Catalog section to see all books and their available copies.
 
@@ -112,6 +115,7 @@ Issue a Book – Select Issue, enter the member ID and book ID. The system valid
 Process a Return – Select Return, enter the transaction ID. The system closes the transaction and shows any fine incurred.
 
 Check Member Activity – Use Member Activity to see all books currently held by a specific member.
+
 
 🤝 Contributing
 Contributions are welcome! If you have ideas for new features, improvements, or bug fixes, please follow these steps:
@@ -126,8 +130,10 @@ Push to the branch (git push origin feature/amazing-feature).
 
 Open a Pull Request.
 
+
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
 
 👤 Author
 Ayush-dot-146 – GitHub Profile
