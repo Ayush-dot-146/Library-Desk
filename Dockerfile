@@ -10,7 +10,7 @@ COPY src ./src
 RUN mvn clean package
 
 # Stage 2: Run Tomcat and deploy the WAR
-FROM tomcat:9.0-jdk17
+FROM tomcat:10-jdk17
 WORKDIR /usr/local/tomcat
 
 # Remove default Tomcat apps to avoid conflicts
